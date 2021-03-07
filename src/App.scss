@@ -20,6 +20,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+    header {
+      padding-bottom: 3rem;
+
+      @media screen and (min-width: 1024px) {
+        padding-bottom: 4rem;
+      }
+    }
+
     a {
       color: #1e5b71;
       text-decoration: none;

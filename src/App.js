@@ -10,6 +10,13 @@ function App() {
     <>
       <Header />
       <Hero />
+      {/* Content with featured image */}
+      {/* CTA */}
+      {/* slick slider */}
+      {/* Box Cta w/slick slider on mobile */}
+      {/* testimonals w/slick slider on mobile */}
+      {/* CTA w/form */}
+      {/* Content with featured image */}
       <Footer />
     </>
   );

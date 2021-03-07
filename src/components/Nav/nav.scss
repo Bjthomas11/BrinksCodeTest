@@ -1,7 +1,10 @@
 .nav-container {
   background-color: #0f2835;
   padding: 1rem;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
 
   .container {
     margin-right: 0;
