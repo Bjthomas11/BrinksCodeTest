@@ -70,7 +70,7 @@ const Nav = () => {
           <Col md={5}>
             <ul className="right">
               <li>
-                <GlobalButton buttonText="Shop Now" />
+                <GlobalButton>Shop Now</GlobalButton>
               </li>
               <li className="more-links">
                 <span role="button">

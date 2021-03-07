@@ -1,27 +1,48 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { AiOutlineCheck } from "react-icons/ai";
 
 import "./contentWithFeaturedImage.scss";
 
 const ContentWithFeaturedImage = () => {
   return (
-    <div className="featured-image-container">
+    <section className="featured-image-container">
       <Container>
         <Row>
-          <Col xs={12} md={6} lg={4} className="img-container">
+          <Col xs={12} md={6} className="img-container">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/IPhone_X_vector.svg/299px-IPhone_X_vector.svg.png"
-              alt=""
+              src="https://i.pinimg.com/originals/15/d4/90/15d4903ffd54f3ad76007ffae8722fc5.png"
+              alt="phone_picture"
             />
           </Col>
-          <Col xs={12} md={6} lg={8} className="content-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            odio praesentium natus consequuntur excepturi eaque obcaecati
-            distinctio, error repellat sunt dolore corporis alias quidem
-            repudiandae saepe iure architecto reprehenderit quae!
+          <Col xs={12} md={6} className="content-container">
+            <div className="content-wrapper">
+              <h3 className="title">Control your home from your phone</h3>
+              <p>Interact with your home wherever you are: </p>
+              <ul>
+                <li>
+                  <AiOutlineCheck size={25} />{" "}
+                  <span>
+                    Manage your security system, locks, cameras, lights and more
+                  </span>
+                </li>
+                <li>
+                  <AiOutlineCheck size={25} />{" "}
+                  <span>
+                    Receive motion and security alerts directly to your phone
+                  </span>
+                </li>
+                <li>
+                  <AiOutlineCheck size={25} />{" "}
+                  <span>
+                    See and speak to visitors through your camera via the app
+                  </span>
+                </li>
+              </ul>
+            </div>
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

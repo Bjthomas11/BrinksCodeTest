@@ -1,11 +1,12 @@
 import Button from "react-bootstrap/Button";
 
-const GlobalButton = ({ buttonText }) => {
+import "./button.scss";
+
+const GlobalButton = ({ children }) => {
   return (
-    // <Button variant="primary" className="global-button">
-    //   {buttonText}
-    // </Button>
-    <Button variant="primary">{buttonText}</Button>
+    <Button variant="primary" class="button">
+      {children}
+    </Button>
   );
 };
 

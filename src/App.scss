@@ -32,6 +32,11 @@
       color: #1e5b71;
       text-decoration: none;
       background: transparent;
+
+      &:hover {
+        color: #1e5b71;
+        text-decoration: underline;
+      }
     }
 
     a:not([href]):not([class]) {

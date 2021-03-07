@@ -1,0 +1,56 @@
+.three-col-cta-container {
+  background-color: #dbd8d1;
+  padding: 2rem 0;
+
+  .top-content {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  p.blurb {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  small.finance-copy {
+    font-size: 0.785rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 2.5rem;
+
+      height: 100%;
+      padding: 0 1rem;
+
+      span {
+        display: block;
+      }
+    }
+
+    p.blurb {
+      font-size: 1.5rem;
+      border-left: 2px solid #fff;
+      height: 80%;
+      padding: 0 1.5rem;
+    }
+
+    small {
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      padding: 0 5rem;
+    }
+  }
+}

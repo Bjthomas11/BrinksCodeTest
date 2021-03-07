@@ -132,7 +132,7 @@ const MobileNav = () => {
 
           <ul>
             <li className="btn-link">
-              <GlobalButton buttonText="Shop Now" onClick={closeMobileMenu} />
+              <GlobalButton onClick={closeMobileMenu}>Shop Now</GlobalButton>
             </li>
           </ul>
           <ul>

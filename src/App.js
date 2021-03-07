@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import ContentWithFeaturedImage from "./components/ContentWithFeaturedImage/ContentWithFeaturedImage";
+import ThreeColCta from "./components/ThreeColCta/ThreeColCta";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Hero />
       <ContentWithFeaturedImage />
-      {/* CTA */}
+      <ThreeColCta />
       {/* slick slider */}
       {/* Box Cta w/slick slider on mobile */}
       {/* testimonals w/slick slider on mobile */}
