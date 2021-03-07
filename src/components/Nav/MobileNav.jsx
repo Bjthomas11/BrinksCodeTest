@@ -57,23 +57,23 @@ const MobileNav = () => {
               </a>
             </li>
             <li className="more-links">
-              <a
+              <span
                 onClick={handleInnerMenu}
                 role="button"
-                aria-expanded={`${innerMenuClick}`}
+                className={`${innerMenuClick}`}
               >
                 About Us <span className="chevron bottom"></span>
-              </a>
+              </span>
               {innerMenuClick && (
                 <ul>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Our Story
                     </a>
                   </li>
 
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Smart Center
                     </a>
                   </li>
@@ -81,47 +81,47 @@ const MobileNav = () => {
               )}
             </li>
             <li className="more-links">
-              <a
+              <span
                 onClick={handleInnerMenu_2}
                 role="button"
-                aria-expanded={`${innerMenuClick_2}`}
+                className={`${innerMenuClick_2}`}
               >
                 Support <span className="chevron bottom"></span>
-              </a>
+              </span>
               {innerMenuClick_2 && (
                 <ul>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Moving?
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Help Center
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       False Alarm Prevention
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Products
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Bill of Rights
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Contact U
                     </a>
                   </li>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       FAQs
                     </a>
                   </li>
@@ -141,23 +141,23 @@ const MobileNav = () => {
             </li>
 
             <li className="more-links">
-              <a
+              <span
                 onClick={handleInnerMenu_3}
                 role="button"
-                aria-expanded={`${innerMenuClick_3}`}
+                className={`${innerMenuClick_3}`}
               >
                 My Account <span className="chevron bottom"></span>
-              </a>
+              </span>
               {innerMenuClick_3 && (
                 <ul>
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Sign In
                     </a>
                   </li>
 
                   <li>
-                    <a href="!#" onClick={closeMobileMenu}>
+                    <a href="/" onClick={closeMobileMenu}>
                       Register
                     </a>
                   </li>

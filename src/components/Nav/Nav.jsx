@@ -22,9 +22,9 @@ const Nav = () => {
                 <a href="/">How It Works</a>
               </li>
               <li className={`more-links`}>
-                <a>
+                <span role="button">
                   About Us <span className="chevron bottom"></span>
-                </a>
+                </span>
 
                 <ul>
                   <li>
@@ -37,9 +37,9 @@ const Nav = () => {
                 </ul>
               </li>
               <li className="more-links">
-                <a role="button">
+                <span role="button">
                   Support <span className="chevron bottom"></span>
-                </a>
+                </span>
 
                 <ul>
                   <li>
@@ -73,9 +73,9 @@ const Nav = () => {
                 <GlobalButton buttonText="Shop Now" />
               </li>
               <li className="more-links">
-                <a role="button">
+                <span role="button">
                   Call Us <span className="chevron bottom"></span>
-                </a>
+                </span>
                 <ul className="contact">
                   <span>Support</span>
                   <li>
@@ -95,9 +95,9 @@ const Nav = () => {
               </li>
 
               <li className="more-links">
-                <a role="button">
+                <span role="button">
                   My Account <span className="chevron bottom"></span>
-                </a>
+                </span>
 
                 <ul>
                   <li>
