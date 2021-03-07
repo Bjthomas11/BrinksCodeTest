@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
+import ContentWithFeaturedImage from "./components/ContentWithFeaturedImage/ContentWithFeaturedImage";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
@@ -10,7 +11,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      {/* Content with featured image */}
+      <ContentWithFeaturedImage />
       {/* CTA */}
       {/* slick slider */}
       {/* Box Cta w/slick slider on mobile */}

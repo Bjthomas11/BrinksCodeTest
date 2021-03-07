@@ -1,6 +1,7 @@
 .hero-container {
   background-color: #0f2835;
   color: #fff;
+  padding: 2rem 0;
 
   //   mobile
 
@@ -16,7 +17,10 @@
         font-size: 1.778rem;
       }
     }
-    .logo {
+
+    .logo-container {
+      max-height: 400px;
+      position: relative;
       margin: 2rem 0;
     }
 
@@ -175,24 +179,24 @@
         width: 90%;
       }
     }
-    .logo {
-      margin: 2rem 0;
-    }
+    .logo-container {
+      position: relative;
 
-    .logo.off {
-      background-image: url("https://images.unsplash.com/photo-1613575831056-0acd5da8f085?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8aW50ZXJpb3IlMjBob21lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 400px;
-    }
+      .logo.off {
+        background-image: url("https://images.unsplash.com/photo-1613575831056-0acd5da8f085?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8aW50ZXJpb3IlMjBob21lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+      }
 
-    .logo.on {
-      background-image: url("https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 400px;
+      .logo.on {
+        background-image: url("https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+      }
     }
 
     .toggle {
@@ -296,7 +300,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: end;
+        justify-content: flex-end;
         text-align: center;
         border: 1px solid #1e5b71;
         border-radius: 5px;

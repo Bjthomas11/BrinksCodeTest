@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { BiCameraHome, BiHome, BiShieldAlt } from "react-icons/bi";
 
 import "./hero.scss";
+import HeroOverlay from "./HeroOverlay";
 
 const Hero = () => {
   const [toggleState, setToggleState] = useState("off");
@@ -25,7 +26,12 @@ const Hero = () => {
               protecting your home.
             </p>
           </div>
-          <div className={`logo ${toggleState}`}></div>
+          <div className="logo-container">
+            <div className={`logo ${toggleState}`}></div>
+
+            <HeroOverlay />
+          </div>
+
           <div className="toggle">
             <div className={`switch ${toggleState}`} onClick={toggle}>
               {toggleState === "off" ? (
@@ -112,8 +118,10 @@ const Hero = () => {
                 </div>
               </div>
             </Col>
-            <Col md={7}>
+            <Col md={7} className="logo-container">
               <div className={`logo ${toggleState}`}></div>
+
+              <HeroOverlay />
             </Col>
           </Row>
         </section>
