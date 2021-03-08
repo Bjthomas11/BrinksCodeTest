@@ -4,6 +4,7 @@ button.btn-primary {
   color: #fff;
   border: none;
   outline: none;
+  box-shadow: none;
   border-radius: 5px;
   padding: 0.4rem 1.2rem;
 
@@ -12,4 +13,19 @@ button.btn-primary {
     border-color: #285566;
     color: #fff;
   }
+}
+
+button.btn-primary:not(:disabled):not(.disabled):active,
+button.btn-primary:not(:disabled):not(.disabled).active,
+.show > button.btn-primary.dropdown-toggle {
+  background-color: #285566;
+  border-color: #285566;
+  box-shadow: none;
+}
+
+button.btn-primary:focus,
+button.btn-primary.focus {
+  background-color: #285566;
+  border-color: #285566;
+  box-shadow: none;
 }

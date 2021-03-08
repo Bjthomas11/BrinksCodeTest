@@ -52,28 +52,28 @@ const SlickSlider = () => {
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/703WxBMD06Xmw5dgWO72u6/c2d581bc673a737b026792d4b22983e7/Motion-Sensor_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>Motion detector</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/3JKn0p54at7oHpL4lTOFv5/0bcb35e640da3681f25d0a4c262e8830/Doorbell-Camera_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>SkyBell</span>
           </div>
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
@@ -82,84 +82,84 @@ const SlickSlider = () => {
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/703WxBMD06Xmw5dgWO72u6/c2d581bc673a737b026792d4b22983e7/Motion-Sensor_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>Motion detector</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/3JKn0p54at7oHpL4lTOFv5/0bcb35e640da3681f25d0a4c262e8830/Doorbell-Camera_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>SkyBell</span>
           </div>
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/703WxBMD06Xmw5dgWO72u6/c2d581bc673a737b026792d4b22983e7/Motion-Sensor_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>Motion detector</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/3JKn0p54at7oHpL4lTOFv5/0bcb35e640da3681f25d0a4c262e8830/Doorbell-Camera_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>SkyBell</span>
           </div>
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/703WxBMD06Xmw5dgWO72u6/c2d581bc673a737b026792d4b22983e7/Motion-Sensor_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>Motion detector</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/3JKn0p54at7oHpL4lTOFv5/0bcb35e640da3681f25d0a4c262e8830/Doorbell-Camera_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>SkyBell</span>
           </div>
           <div>
             <img
               src="https://www.adt.com/content/dam/adt6/pages/door-window-sensors/prod_hero_door_window_hires.png"
-              alt=""
+              alt="slider-img"
             />
             <span>Door sensor</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/703WxBMD06Xmw5dgWO72u6/c2d581bc673a737b026792d4b22983e7/Motion-Sensor_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>Motion detector</span>
           </div>
           <div>
             <img
               src="https://images.ctfassets.net/n58cc9djl3c5/3JKn0p54at7oHpL4lTOFv5/0bcb35e640da3681f25d0a4c262e8830/Doorbell-Camera_DS.png?fm=png&fl=png8"
-              alt=""
+              alt="slider-img"
             />
             <span>SkyBell</span>
           </div>

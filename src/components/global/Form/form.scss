@@ -1,0 +1,31 @@
+.form-container {
+  background-color: #dad8d1;
+
+  .inner-form-wrapper {
+    padding: 1rem;
+    height: 100%;
+  }
+  h3 {
+    color: #0f2835;
+    font-weight: 600;
+    margin-bottom: 1.7rem;
+    @media screen and (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  input {
+    margin-bottom: 1.2rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  small {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

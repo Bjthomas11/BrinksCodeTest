@@ -31,7 +31,7 @@ const BoxSlider = () => {
     <div className="box-slider-container">
       <Container>
         <Slider {...settings} className="d-xs-flex d-md-none">
-          <div class="text-container">
+          <div className="text-container">
             <FiBox size={50} />
             <div className="text">
               <span className="number">1.</span>{" "}
@@ -40,7 +40,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiBook size={50} />
             <div className="text">
               <span className="number">2.</span>
@@ -49,7 +49,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiTruck size={50} />
             <div className="text">
               <span className="number">3.</span>
@@ -58,7 +58,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiInbox size={50} />
             <div className="text">
               <span className="number">4.</span>
@@ -71,7 +71,7 @@ const BoxSlider = () => {
         </Slider>
 
         <div className="d-none d-md-flex desktop-blocks">
-          <div class="text-container">
+          <div className="text-container">
             <FiBox size={50} />
             <div className="text">
               <span className="number">1.</span>{" "}
@@ -80,7 +80,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiBook size={50} />
             <div className="text">
               <span className="number">2.</span>
@@ -89,7 +89,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiTruck size={50} />
             <div className="text">
               <span className="number">3.</span>
@@ -98,7 +98,7 @@ const BoxSlider = () => {
               </div>
             </div>
           </div>
-          <div class="text-container">
+          <div className="text-container">
             <FiInbox size={50} />
             <div className="text">
               <span className="number">4.</span>

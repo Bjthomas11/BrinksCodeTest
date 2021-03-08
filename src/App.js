@@ -5,6 +5,7 @@ import ContentWithFeaturedImage from "./components/ContentWithFeaturedImage/Cont
 import ThreeColCta from "./components/ThreeColCta/ThreeColCta";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import CtaSlider from "./components/CtaSlider/CtaSlider";
+import CtaForm from "./components/CtaForm/CtaForm";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
@@ -19,7 +20,7 @@ function App() {
       <ImageSlider />
       <CtaSlider />
       {/* testimonals w/slick slider on mobile */}
-      {/* CTA w/form */}
+      <CtaForm />
       {/* Content with featured image */}
       <Footer />
     </>
