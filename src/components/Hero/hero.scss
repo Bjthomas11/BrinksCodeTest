@@ -1,7 +1,6 @@
 .hero-container {
   background-color: #0f2835;
   color: #fff;
-  padding: 2rem 0;
 
   //   mobile
 
@@ -41,6 +40,7 @@
     }
 
     .toggle {
+      text-align: center;
       .switch {
         position: relative;
         display: inline-block;

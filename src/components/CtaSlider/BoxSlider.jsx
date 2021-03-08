@@ -72,7 +72,7 @@ const BoxSlider = () => {
 
         <div className="d-none d-md-flex desktop-blocks">
           <div className="text-container">
-            <FiBox size={50} />
+            <FiBox size={60} />
             <div className="text">
               <span className="number">1.</span>{" "}
               <div className="inner-text">
@@ -81,7 +81,7 @@ const BoxSlider = () => {
             </div>
           </div>
           <div className="text-container">
-            <FiBook size={50} />
+            <FiBook size={60} />
             <div className="text">
               <span className="number">2.</span>
               <div className="inner-text">
@@ -90,7 +90,7 @@ const BoxSlider = () => {
             </div>
           </div>
           <div className="text-container">
-            <FiTruck size={50} />
+            <FiTruck size={60} />
             <div className="text">
               <span className="number">3.</span>
               <div className="inner-text">
@@ -99,7 +99,7 @@ const BoxSlider = () => {
             </div>
           </div>
           <div className="text-container">
-            <FiInbox size={50} />
+            <FiInbox size={60} />
             <div className="text">
               <span className="number">4.</span>
               <div className="inner-text">

@@ -1,12 +1,14 @@
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+
 import Hero from "./components/Hero/Hero";
-import ContentWithFeaturedImage from "./components/ContentWithFeaturedImage/ContentWithFeaturedImage";
 import ContentWithFeaturedPhone from "./components/ContentWithFeaturedPhone/ContentWithFeaturedPhone";
 import ThreeColCta from "./components/ThreeColCta/ThreeColCta";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import CtaSlider from "./components/CtaSlider/CtaSlider";
+import Testimonials from "./components/Testimonials/Testimonials";
 import CtaForm from "./components/CtaForm/CtaForm";
+import ContentWithFeaturedImage from "./components/ContentWithFeaturedImage/ContentWithFeaturedImage";
+import Footer from "./components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
@@ -20,7 +22,7 @@ function App() {
       <ThreeColCta />
       <ImageSlider />
       <CtaSlider />
-      {/* testimonals w/slick slider on mobile */}
+      <Testimonials />
       <CtaForm />
       <ContentWithFeaturedImage />
       <Footer />
