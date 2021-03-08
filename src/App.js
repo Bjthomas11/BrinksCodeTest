@@ -6,6 +6,7 @@ import ThreeColCta from "./components/ThreeColCta/ThreeColCta";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Hero />
       <ContentWithFeaturedImage />
       <ThreeColCta />
-      {/* slick slider */}
+      <ImageSlider />
       {/* Box Cta w/slick slider on mobile */}
       {/* testimonals w/slick slider on mobile */}
       {/* CTA w/form */}

@@ -4,7 +4,7 @@ import "./button.scss";
 
 const GlobalButton = ({ children }) => {
   return (
-    <Button variant="primary" class="button">
+    <Button variant="primary" className="button">
       {children}
     </Button>
   );
