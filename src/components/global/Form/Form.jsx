@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import GlobalButton from "../Button/Button";
 
 import "./form.scss";
