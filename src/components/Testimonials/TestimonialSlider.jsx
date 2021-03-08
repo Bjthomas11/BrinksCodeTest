@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import { IoStarSharp } from "react-icons/io5";
 

@@ -14,7 +14,7 @@ const Testimonials = () => {
           </Col>
         </Row>
         <TestimonialSlider />
-        <p class="rated">
+        <p className="rated">
           Rated 4.2 out of 5 based on 2,767 reviews on
           <IoStarSharp className="icon" size={30} />
         </p>
