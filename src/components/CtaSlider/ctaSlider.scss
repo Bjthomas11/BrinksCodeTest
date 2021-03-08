@@ -1,0 +1,45 @@
+.cta-slider-container {
+  background-color: #1d3a2f;
+  color: #fff;
+  padding: 3rem 0;
+
+  .works-text {
+    font-size: 1.2rem;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      text-align: left;
+    }
+  }
+
+  .content {
+    border-left: 2px solid #2d5e43;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+      border-left: none;
+
+      h3 {
+        border-left: 2px solid #2d5e43;
+        padding-left: 2rem;
+        font-size: 3rem;
+
+        span {
+          display: block;
+        }
+      }
+
+      p {
+        border-left: 2px solid #2d5e43;
+        padding-left: 2rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
