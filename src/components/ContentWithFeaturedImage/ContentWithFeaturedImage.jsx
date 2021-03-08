@@ -10,9 +10,13 @@ const ContentWithFeaturedImage = () => {
         <Row>
           <Col xs={12} md={6} className="img-container">
             <img
-              src="https://i.pinimg.com/originals/15/d4/90/15d4903ffd54f3ad76007ffae8722fc5.png"
-              alt="phone_picture"
+              src="https://images.ctfassets.net/n58cc9djl3c5/1Yxwjz4jc741GIxpsSZCFr/337fe1add7177431795500ef54ae09e2/Newsweek_BISCS2020_Siegel_Standard.png?fm=png&fl=png8"
+              alt="best_in_state pic"
             />
+            <p>
+              Brinks Home <br /> best-in-state <br /> customer service
+              <small>Newsweek, 2020</small>
+            </p>
           </Col>
           <Col xs={12} md={6} className="content-container">
             <div className="content-wrapper">
