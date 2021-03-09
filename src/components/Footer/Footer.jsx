@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <Container>
-        <Row className="justify-content-lg-around">
+        <Row className="justify-content-lg-between">
           <Col xs={6} md={3} className="col-lg-auto">
             <h5>Quick Links</h5>
             <ul>

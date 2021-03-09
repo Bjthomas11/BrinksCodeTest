@@ -7,6 +7,10 @@
   h5 {
     font-weight: 600;
     font-size: 1rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.7rem;
+    }
   }
 
   ul {
@@ -17,6 +21,10 @@
       a {
         color: #fff;
         font-size: 0.75rem;
+
+        @media screen and (min-width: 768px) {
+          font-size: 1.1rem;
+        }
       }
     }
   }
@@ -47,6 +55,10 @@
     background-color: #dbd8d1;
     color: #0f2835;
     padding: 1rem;
+
+    .container {
+      padding: 0;
+    }
 
     @media screen and (min-width: 768px) {
       padding: 1.5rem;
