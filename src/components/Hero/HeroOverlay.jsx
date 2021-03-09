@@ -18,7 +18,7 @@ const HeroOverlay = () => {
     <div className="outer-overlay-container">
       <div className="security-icons">
         <span
-          className="security-icon"
+          className={`security-icon`}
           style={{ top: "50%", right: "60%" }}
           ref={target}
           onClick={showOverlay}

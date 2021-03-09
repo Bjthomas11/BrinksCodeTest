@@ -28,7 +28,6 @@ const Hero = () => {
           </div>
           <div className="logo-container">
             <div className={`logo ${toggleState}`}></div>
-
             <HeroOverlay />
           </div>
 
